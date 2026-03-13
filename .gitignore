@@ -15,7 +15,9 @@ node_modules
 
 # next.js
 /.next/
-/out/
+
+# Allow routes-manifest.json for Vercel (important for deployment)
+!/out/routes-manifest.json
 
 # production
 /build
@@ -47,5 +49,6 @@ test
 prompt
 
 server.log
+
 # Skills directory
 /skills/
