@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "routes": {
+    "/": {
+      "type": "page",
+      "title": "اسلام جوبا | Eslam Jupa",
+      "path": "/index.html"
+    },
+    "/404": {
+      "type": "page",
+      "title": "Not Found - اسلام جوبا",
+      "path": "/404.html"
+    },
+    "/_not-found": {
+      "type": "page",
+      "title": "Netlify-Deploy Preview",
+      "path": "/_not-found/index.html"
+    }
+  }
+}
